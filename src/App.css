@@ -1,0 +1,174 @@
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #161f16;
+	color: rgb(107, 162, 252);
+	padding: 10px 0;
+	z-index: 1000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5 5px;
+  }
+  
+  .app-name {
+	margin: 0;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  
+  .navbar-links {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 10px;
+	
+  }
+  
+  .navbar-links li {
+	margin-left: 30px;
+  }
+  
+  .navbar-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+	background-color: #e0e0e0;
+	border-radius: 5px;
+  }
+  
+
+  .App {
+	display: flex;
+	flex-direction: column;
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/834/769/small/light-pink-yellow-template-with-sky-clouds-gradient-illustration-with-colorful-sky-clouds-beautiful-layout-for-uidesign-vector.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-top: 80px;  
+  }
+  
+  .search-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	
+  }
+  
+  .search-btn {
+	padding: 12px 20px;
+	background-color: #1a8ec8;
+	border: none;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+	background-color: #140f30;
+  }
+  .city-search {
+	padding: 12px;
+	width: 250px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 2px solid #4CAF50;
+  }
+  
+  .city-search:focus {
+	outline: none;
+	border-color: #45a049;
+  }
+  
+ 
+  .city-name h2 {
+	text-align: center;
+	font-size: 30px;
+  }
+  
+  .date {
+	text-align: center;
+	font-size: 20px;
+	color: #777;
+  }
+  
+  .icon-temp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	margin-top: 20px;
+  }
+  
+  .icon-temp img {
+	margin-right: 20px;
+  }
+  
+  .deg {
+	font-size: 24px;
+  }
+  
+  .des-wind {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+  }
+  
+  .error-message {
+	text-align: center;
+	color: red;
+	font-size: 18px;
+  }
+  
+  .footer {
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  .footer-content p {
+	margin: 0;
+	font-size: 14px;
+  }
+  
+
+ 
+	.navbar-links {
+	  flex-direction: row;
+	  align-items: center;
+	}
+  
+	.navbar-links li {
+	  margin: 0px 0;
+	}
+  
+	.city-search {
+	  width: 100%;
+	  max-width: 300px;
+	}
+  
+  
